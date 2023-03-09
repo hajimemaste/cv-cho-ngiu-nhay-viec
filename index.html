@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./image/icon.png" type="image/gif" sizes="16x16" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>MyCV</title>
   </head>
   <body>
     <header class="table-left">
@@ -51,7 +53,7 @@
             height="150px"
             style="border-radius: 50%"
           />
-          <h1 style="font-weight: bold">Nguyen Ho Thanh Duyen</h1>
+          <h1 style="font-weight: bold">Nguyễn Hồ Thanh Duyên</h1>
           <h2 style="font-size: 30px">Giao Vien Danh Tre</h2>
         </div>
         <span>D</span>
@@ -63,14 +65,14 @@
             <span>A</span>
           </div>
           <div class="contents-about">
-            <div class="image-about">
+            <div class="image-about" data-aos="fade-right">
               <img
                 src="https://scontent.fdad3-4.fna.fbcdn.net/v/t39.30808-6/327961107_863393954746230_5475940711014778548_n.jpg?stp=dst-jpg_s600x600&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=4zPWf3fhZVMAX_XxLzX&_nc_ht=scontent.fdad3-4.fna&oh=00_AfBzZuo3J48E4yhKIoMFtw_t32azsRfrH974Sx0-tQyNcQ&oe=640E860F"
                 alt="avatar"
               />
             </div>
 
-            <div class="text-about">
+            <div class="text-about" data-aos="fade-left" data-aos-delay="500">
               <h1>Doan Dai Hung</h1>
               <p>Information Technology</p>
               <br />
@@ -116,14 +118,18 @@
           </p>
           <div class="contens-skill">
             <div class="conskill">
-              <h2 class="phantram" style="--precent: 80%">Social Media</h2>
-              <h2 class="phantram" style="--precent: 75%">
+              <h2 class="phantram" style="--precent: 80%" data-aos="fade-right">
+                Social Media
+              </h2>
+              <h2 class="phantram" style="--precent: 75%" data-aos="fade-right">
                 Project Management
               </h2>
             </div>
             <div class="conskill">
-              <h2 class="phantram" style="--precent: 95%">Social Media</h2>
-              <h2 class="phantram" style="--precent: 70%">
+              <h2 class="phantram" style="--precent: 95%" data-aos="fade-left">
+                Social Media
+              </h2>
+              <h2 class="phantram" style="--precent: 70%" data-aos="fade-left">
                 Project Management
               </h2>
             </div>
@@ -131,5 +137,10 @@
         </section>
       </div>
     </main>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({});
+    </script>
   </body>
 </html>
